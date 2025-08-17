@@ -1,0 +1,192 @@
+[0.000000] (-) TimerEvent: {}
+[0.001187] (small_house_sim) JobQueued: {'identifier': 'small_house_sim', 'dependencies': OrderedDict()}
+[0.001266] (small_house_sim) JobStarted: {'identifier': 'small_house_sim'}
+[0.017005] (small_house_sim) JobProgress: {'identifier': 'small_house_sim', 'progress': 'cmake'}
+[0.018647] (small_house_sim) Command: {'cmd': ['/usr/bin/cmake', '/home/saheer/ros2_ws/src/small_house_sim', '-DCMAKE_INSTALL_PREFIX=/home/saheer/ros2_ws/install/small_house_sim'], 'cwd': '/home/saheer/ros2_ws/build/small_house_sim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'saheer'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/saheer'), ('OLDPWD', '/home/saheer/ros2_ws/src/small_house_sim'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '12031'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'saheer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'saheer'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/saheer-Aspire-A325-42:@/tmp/.ICE-unix/1452,unix/saheer-Aspire-A325-42:/tmp/.ICE-unix/1452'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/30889218_cbb8_4eea_85aa_6c7a2f758de0'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TYHDB3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.156'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/saheer/ros2_ws/build/small_house_sim'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099450] (-) TimerEvent: {}
+[0.144573] (small_house_sim) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199613] (-) TimerEvent: {}
+[0.273214] (small_house_sim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.290770] (small_house_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299694] (-) TimerEvent: {}
+[0.400217] (-) TimerEvent: {}
+[0.459471] (small_house_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.477551] (small_house_sim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.478131] (small_house_sim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.478947] (small_house_sim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.485836] (small_house_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500297] (-) TimerEvent: {}
+[0.600800] (-) TimerEvent: {}
+[0.684649] (small_house_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.700876] (-) TimerEvent: {}
+[0.701435] (small_house_sim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.702094] (small_house_sim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.703189] (small_house_sim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.710515] (small_house_sim) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.801046] (-) TimerEvent: {}
+[0.901564] (-) TimerEvent: {}
+[1.002234] (-) TimerEvent: {}
+[1.070638] (small_house_sim) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.102361] (-) TimerEvent: {}
+[1.202866] (-) TimerEvent: {}
+[1.268618] (small_house_sim) StdoutLine: {'line': b'-- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[1.302988] (-) TimerEvent: {}
+[1.343182] (small_house_sim) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.350101] (small_house_sim) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.362643] (small_house_sim) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.380538] (small_house_sim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.403065] (-) TimerEvent: {}
+[1.412105] (small_house_sim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.503232] (-) TimerEvent: {}
+[1.520356] (small_house_sim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.526819] (small_house_sim) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.603401] (-) TimerEvent: {}
+[1.704056] (-) TimerEvent: {}
+[1.743710] (small_house_sim) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.804199] (-) TimerEvent: {}
+[1.822556] (small_house_sim) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.904360] (-) TimerEvent: {}
+[1.910763] (small_house_sim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.924767] (small_house_sim) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.004542] (-) TimerEvent: {}
+[2.099695] (small_house_sim) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.100252] (small_house_sim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.104599] (-) TimerEvent: {}
+[2.205063] (-) TimerEvent: {}
+[2.281631] (small_house_sim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.284204] (small_house_sim) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.305165] (-) TimerEvent: {}
+[2.405699] (-) TimerEvent: {}
+[2.440823] (small_house_sim) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[2.444118] (small_house_sim) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[2.479571] (small_house_sim) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[2.505925] (-) TimerEvent: {}
+[2.606496] (-) TimerEvent: {}
+[2.707108] (-) TimerEvent: {}
+[2.766316] (small_house_sim) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[2.807259] (-) TimerEvent: {}
+[2.896553] (small_house_sim) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[2.907360] (-) TimerEvent: {}
+[2.956428] (small_house_sim) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[3.007562] (-) TimerEvent: {}
+[3.029339] (small_house_sim) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[3.072719] (small_house_sim) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[3.084006] (small_house_sim) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.101624] (small_house_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[3.105944] (small_house_sim) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[3.106999] (small_house_sim) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[3.107614] (-) TimerEvent: {}
+[3.120801] (small_house_sim) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[3.154265] (small_house_sim) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[3.207800] (-) TimerEvent: {}
+[3.244856] (small_house_sim) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[3.263903] (small_house_sim) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[3.286904] (small_house_sim) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[3.298403] (small_house_sim) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[3.298768] (small_house_sim) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[3.307318] (small_house_sim) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[3.307545] (small_house_sim) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[3.307852] (-) TimerEvent: {}
+[3.315524] (small_house_sim) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[3.315787] (small_house_sim) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[3.323178] (small_house_sim) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[3.323497] (small_house_sim) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[3.330462] (small_house_sim) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[3.330646] (small_house_sim) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[3.337014] (small_house_sim) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[3.408073] (-) TimerEvent: {}
+[3.508681] (-) TimerEvent: {}
+[3.536601] (small_house_sim) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.543341] (small_house_sim) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[3.544614] (small_house_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[3.593414] (small_house_sim) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[3.608773] (-) TimerEvent: {}
+[3.623863] (small_house_sim) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[3.634247] (small_house_sim) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[3.668763] (small_house_sim) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[3.708941] (-) TimerEvent: {}
+[3.763712] (small_house_sim) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[3.779631] (small_house_sim) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[3.809091] (-) TimerEvent: {}
+[3.811618] (small_house_sim) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[3.896424] (small_house_sim) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[3.903447] (small_house_sim) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[3.904578] (small_house_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[3.909163] (-) TimerEvent: {}
+[3.958052] (small_house_sim) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.971577] (small_house_sim) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[4.005898] (small_house_sim) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[4.009295] (-) TimerEvent: {}
+[4.097287] (small_house_sim) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[4.102617] (small_house_sim) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[4.103740] (small_house_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[4.104745] (small_house_sim) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[4.107265] (small_house_sim) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[4.109368] (-) TimerEvent: {}
+[4.110410] (small_house_sim) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[4.139887] (small_house_sim) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[4.141551] (small_house_sim) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[4.146704] (small_house_sim) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[4.147953] (small_house_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[4.148807] (small_house_sim) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[4.155692] (small_house_sim) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[4.156725] (small_house_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[4.209520] (-) TimerEvent: {}
+[4.310038] (-) TimerEvent: {}
+[4.365799] (small_house_sim) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[4.389613] (small_house_sim) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[4.410177] (-) TimerEvent: {}
+[4.423961] (small_house_sim) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[4.510405] (-) TimerEvent: {}
+[4.513130] (small_house_sim) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[4.529536] (small_house_sim) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[4.563245] (small_house_sim) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[4.610553] (-) TimerEvent: {}
+[4.651639] (small_house_sim) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[4.652858] (small_house_sim) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[4.653898] (small_house_sim) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[4.654853] (small_house_sim) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[4.665593] (small_house_sim) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[4.666494] (small_house_sim) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[4.700899] (small_house_sim) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[4.710654] (-) TimerEvent: {}
+[4.793340] (small_house_sim) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.810784] (-) TimerEvent: {}
+[4.911286] (-) TimerEvent: {}
+[4.990103] (small_house_sim) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.991775] (small_house_sim) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.993311] (small_house_sim) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.996656] (small_house_sim) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.001196] (small_house_sim) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.011397] (-) TimerEvent: {}
+[5.017138] (small_house_sim) StdoutLine: {'line': b'-- Generating done\n'}
+[5.024826] (small_house_sim) StdoutLine: {'line': b'-- Build files have been written to: /home/saheer/ros2_ws/build/small_house_sim\n'}
+[5.063930] (small_house_sim) CommandEnded: {'returncode': 0}
+[5.065594] (small_house_sim) JobProgress: {'identifier': 'small_house_sim', 'progress': 'build'}
+[5.067702] (small_house_sim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/saheer/ros2_ws/build/small_house_sim', '--', '-j12', '-l12'], 'cwd': '/home/saheer/ros2_ws/build/small_house_sim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'saheer'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/saheer'), ('OLDPWD', '/home/saheer/ros2_ws/src/small_house_sim'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '12031'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'saheer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'saheer'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/saheer-Aspire-A325-42:@/tmp/.ICE-unix/1452,unix/saheer-Aspire-A325-42:/tmp/.ICE-unix/1452'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/30889218_cbb8_4eea_85aa_6c7a2f758de0'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TYHDB3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.156'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/saheer/ros2_ws/build/small_house_sim'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.111583] (-) TimerEvent: {}
+[5.177828] (small_house_sim) CommandEnded: {'returncode': 0}
+[5.179394] (small_house_sim) JobProgress: {'identifier': 'small_house_sim', 'progress': 'install'}
+[5.202481] (small_house_sim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/saheer/ros2_ws/build/small_house_sim'], 'cwd': '/home/saheer/ros2_ws/build/small_house_sim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'saheer'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/saheer'), ('OLDPWD', '/home/saheer/ros2_ws/src/small_house_sim'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '12031'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'saheer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'saheer'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/saheer-Aspire-A325-42:@/tmp/.ICE-unix/1452,unix/saheer-Aspire-A325-42:/tmp/.ICE-unix/1452'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/30889218_cbb8_4eea_85aa_6c7a2f758de0'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TYHDB3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.156'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/saheer/ros2_ws/build/small_house_sim'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.211654] (-) TimerEvent: {}
+[5.223481] (small_house_sim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.224078] (small_house_sim) StdoutLine: {'line': b'-- Installing: /home/saheer/ros2_ws/install/small_house_sim/share/ament_index/resource_index/package_run_dependencies/small_house_sim\n'}
+[5.224736] (small_house_sim) StdoutLine: {'line': b'-- Installing: /home/saheer/ros2_ws/install/small_house_sim/share/ament_index/resource_index/parent_prefix_path/small_house_sim\n'}
+[5.225360] (small_house_sim) StdoutLine: {'line': b'-- Installing: /home/saheer/ros2_ws/install/small_house_sim/share/small_house_sim/environment/ament_prefix_path.sh\n'}
+[5.225734] (small_house_sim) StdoutLine: {'line': b'-- Installing: /home/saheer/ros2_ws/install/small_house_sim/share/small_house_sim/environment/ament_prefix_path.dsv\n'}
+[5.226172] (small_house_sim) StdoutLine: {'line': b'-- Installing: /home/saheer/ros2_ws/install/small_house_sim/share/small_house_sim/environment/path.sh\n'}
+[5.226529] (small_house_sim) StdoutLine: {'line': b'-- Installing: /home/saheer/ros2_ws/install/small_house_sim/share/small_house_sim/environment/path.dsv\n'}
+[5.226880] (small_house_sim) StdoutLine: {'line': b'-- Installing: /home/saheer/ros2_ws/install/small_house_sim/share/small_house_sim/local_setup.bash\n'}
+[5.227283] (small_house_sim) StdoutLine: {'line': b'-- Installing: /home/saheer/ros2_ws/install/small_house_sim/share/small_house_sim/local_setup.sh\n'}
+[5.227660] (small_house_sim) StdoutLine: {'line': b'-- Installing: /home/saheer/ros2_ws/install/small_house_sim/share/small_house_sim/local_setup.zsh\n'}
+[5.228044] (small_house_sim) StdoutLine: {'line': b'-- Installing: /home/saheer/ros2_ws/install/small_house_sim/share/small_house_sim/local_setup.dsv\n'}
+[5.228420] (small_house_sim) StdoutLine: {'line': b'-- Installing: /home/saheer/ros2_ws/install/small_house_sim/share/small_house_sim/package.dsv\n'}
+[5.229010] (small_house_sim) StdoutLine: {'line': b'-- Installing: /home/saheer/ros2_ws/install/small_house_sim/share/ament_index/resource_index/packages/small_house_sim\n'}
+[5.229530] (small_house_sim) StdoutLine: {'line': b'-- Installing: /home/saheer/ros2_ws/install/small_house_sim/share/small_house_sim/cmake/small_house_simConfig.cmake\n'}
+[5.229850] (small_house_sim) StdoutLine: {'line': b'-- Installing: /home/saheer/ros2_ws/install/small_house_sim/share/small_house_sim/cmake/small_house_simConfig-version.cmake\n'}
+[5.230248] (small_house_sim) StdoutLine: {'line': b'-- Installing: /home/saheer/ros2_ws/install/small_house_sim/share/small_house_sim/package.xml\n'}
+[5.230607] (small_house_sim) StdoutLine: {'line': b'-- Installing: /home/saheer/ros2_ws/install/small_house_sim/share/small_house_sim//launch\n'}
+[5.230821] (small_house_sim) StdoutLine: {'line': b'-- Installing: /home/saheer/ros2_ws/install/small_house_sim/share/small_house_sim//launch/small_house_launch.py\n'}
+[5.236276] (small_house_sim) CommandEnded: {'returncode': 0}
+[5.275259] (small_house_sim) JobEnded: {'identifier': 'small_house_sim', 'rc': 0}
+[5.276597] (-) EventReactorShutdown: {}

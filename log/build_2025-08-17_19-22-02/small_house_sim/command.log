@@ -1,0 +1,4 @@
+Invoking command in '/home/saheer/ros2_ws/build/small_house_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/saheer/ros2_ws/build/small_house_sim -- -j12 -l12
+Invoked command in '/home/saheer/ros2_ws/build/small_house_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/saheer/ros2_ws/build/small_house_sim -- -j12 -l12
+Invoking command in '/home/saheer/ros2_ws/build/small_house_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/saheer/ros2_ws/build/small_house_sim
+Invoked command in '/home/saheer/ros2_ws/build/small_house_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/saheer/ros2_ws/build/small_house_sim
